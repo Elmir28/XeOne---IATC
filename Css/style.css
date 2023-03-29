@@ -98,14 +98,14 @@
     font-size: 13px;
 }
 
-.icon_menu:hover{
-    color: rgb(32, 179, 179);
-}
-
 .icon_style{
     cursor: pointer;
-
 }
+.icon_style:hover{
+    color: rgb(32, 179, 179);
+    transition: 0.3s;
+}
+
 .bottom_block{
     width: 100%;
     min-height: 400px;
@@ -227,14 +227,14 @@ h2{
 }
 
 .button:hover{
-    background-color: black;
+    background-color:rgb(32, 179, 179); 
     cursor: pointer;
     transition: 0.3s;
 }
 
 .bottom-info-right{
     width: 510px;
-    height: 215px;
+    height: 300px;
     background-image: url(https://blogs.windows.com/wp-content/uploads/prod/sites/2/2015/04/Aspire_Switch_10_SW5-015_02.jpg);
     float: left;
     background-size: cover;
