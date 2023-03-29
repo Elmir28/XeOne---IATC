@@ -98,6 +98,10 @@
     font-size: 13px;
 }
 
+.icon_menu:hover{
+    color: rgb(32, 179, 179);
+}
+
 .icon_style{
     cursor: pointer;
 
